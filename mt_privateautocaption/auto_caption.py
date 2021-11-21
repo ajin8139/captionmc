@@ -19,9 +19,7 @@ async def caption(client, message: Message):
     await message.edit(f"<b>{kopp.file_name}</b>\n\n<b>{CAPTION_TEXT}</b>",
           reply_markup=InlineKeyboardMarkup(
               [[
-              InlineKeyboardButton(f"{BUTTON_TEXT}", url=f"{URL_LINK}")
-              ]]
-        ))
+              
 
 def get_file_id(msg: Message):
     if msg.media:
