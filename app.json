@@ -24,17 +24,9 @@
             "description": "Your Bot Token From @BotFather",
             "value": ""
         },
-        "BUTTON": {
-            "description": "Button Name",
-            "required": false
-        },
         "CAPTION": {
             "description": "Caption Text",
             "required": false
-        },
-        "LINK": {
-            "description": " Group Or Chanenl) Public Link Link",
-            "value": "t.me/mo_tech_yt"
         },
         "BOT_USERNAME": {
             "description": "Your Bot Username From @BotFather",
